@@ -1,0 +1,22 @@
+.mySwiper4 img{
+width: 90%;
+height: 600px;
+}
+.mySwiper4{
+width: 100%;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.coworking{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media(max-width:1000px){
+    .coworking{
+        display: none;
+    }
+}
