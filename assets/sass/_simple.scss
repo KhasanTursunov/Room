@@ -154,3 +154,9 @@ width: 80%;
 text-align: center;
 }
 }
+
+.div_for_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
