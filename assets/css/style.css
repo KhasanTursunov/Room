@@ -579,4 +579,125 @@ li {
   order: 1;
 }
 
+.houndered {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.houndered > div {
+  display: flex;
+  justify-content: center;
+}
+
+.houndered_title h2 {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 50.6px;
+  text-align: center;
+  color: #000000;
+}
+
+.houndered_wrapper {
+  background-color: #F2F2F2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 80%;
+  height: 50%;
+}
+
+.houndered_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.houndered_card p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+.houndered_items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.houndered_items button {
+  padding: 20px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #46856E;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  border: transparent;
+  transition: 0.5s;
+}
+
+.houndered_items button:hover {
+  background-color: #fff;
+  color: #46856E;
+  border: 2px solid #46856E;
+}
+
+.houndered_items p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  color: #AAAAAA;
+}
+
+.houndered_card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  transition: 0.8s;
+}
+
+.houndered_card:hover {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  background: #e0dfdf;
+  border-radius: 10px;
+}
+
+@media (max-width: 620px) {
+  .houndered_wrapper {
+    background-color: #F2F2F2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    height: 50%;
+  }
+  .houndered_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+  }
+  .houndered_title h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.6px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
