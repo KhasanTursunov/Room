@@ -1,0 +1,64 @@
+.brands_title{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.brands_title h2{
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+color: $oneA;
+}
+
+.brands_title p{
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+color: $fourA;
+}
+
+.brands_swiper{
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+.brands_swiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media(max-width:500px){
+    .brands_title h2{
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+color: $oneA;
+}
+.brands_title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}
+
+
+
+@media(max-width:350px){
+    .brands_title h2{
+font-size: 32px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+color: $oneA;
+}
+}
