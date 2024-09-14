@@ -13,6 +13,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 30px;
+  border: 1px solid red;
 }
 
 button {
@@ -122,6 +123,86 @@ li {
   .navbar_items .navbar_items_inside,
   .cart_org {
     display: none;
+  }
+}
+.showcase {
+  margin-top: 30px;
+}
+
+.showcase_img img {
+  width: 100%;
+}
+
+.showcase_left {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.showcase_left h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: left;
+  color: #1A1A1A;
+  width: 30%;
+}
+
+.showcase_left p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  width: 45%;
+  color: #AAAAAA;
+}
+
+@media (max-width: 800px) {
+  .showcase_left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .showcase_left h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: left;
+    color: #1A1A1A;
+    width: 100%;
+  }
+  .showcase_left p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    width: 100%;
+    color: #AAAAAA;
+  }
+}
+@media (max-width: 500px) {
+  .showcase_img img {
+    width: 100%;
+  }
+  .showcase {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 400px) {
+  .showcase_left h1 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #1A1A1A;
+    width: 100%;
   }
 }
 
