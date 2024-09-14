@@ -1,0 +1,156 @@
+.simple{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.simple_title h2{
+font-size: 48px;
+font-weight: 400;
+line-height: 56.25px;
+text-align: left;
+color: $oneA;
+align-items: center;
+width: 80%;
+}
+
+.simple_title p{
+font-size: 14px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.75px;
+text-align: left !important;
+color: #46856E;
+}
+
+
+
+
+.simple_title{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    // text-align: center;
+}
+
+.simple_card h3{
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+text-align: left ;
+color: $oneA;
+}
+
+.simple_card p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: $A;
+width: 80%;
+}
+
+.simple_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.simple_card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+background: #fff;
+border-radius: 10px;
+padding: 20px;
+transition: 0.5s;
+}
+.simple_card:hover{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+     box-shadow: 0 16px 28px 10px rgba(0, 0, 0, 0.28);
+background: #fff;
+border-radius: 10px;
+padding: 20px;
+}
+
+
+@media(max-width:900px){
+    .simple_cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.simple_card{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center;
+     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+background: #fff;
+border-radius: 10px;
+padding: 20px;
+}
+.div_for_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+}
+
+@media(max-width:600px){
+    .simple_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.simple_card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+background: #fff;
+border-radius: 10px;
+padding: 20px;
+}
+.simple_title h2{
+font-size: 38px;
+font-weight: 400;
+line-height: 56.25px;
+text-align: left;
+color: $oneA;
+align-items: center;
+width: 80%;
+text-align: center;
+}
+}
+
+@media(max-width:400px){
+    .simple_title h2{
+font-size: 30px;
+font-weight: 400;
+line-height: 46.25px;
+text-align: left;
+color: $oneA;
+align-items: center;
+width: 80%;
+text-align: center;
+}
+}
